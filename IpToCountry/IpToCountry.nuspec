@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$id$</title>
+    <authors>$author$</authors>
+    <owners>$author$</owners>
+    <projectUrl>https://github.com/regnars/IpToCountry</projectUrl>
+	<licenseUrl>http://opensource.org/licenses/MIT</licenseUrl>
+	<language>en-US</language>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>$description$</description>
+	<summary>$description$</summary>
+    <copyright>$copyright$</copyright>
+    <tags>IP2Location IpToCountry IpAddress CountryCode</tags>
+  </metadata>
+</package>
