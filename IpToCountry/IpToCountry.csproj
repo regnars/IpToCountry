@@ -40,7 +40,8 @@
     <Reference Include="IP2Location">
       <HintPath>..\packages\IP2Location.1.0.0\lib\IP2Location.dll</HintPath>
     </Reference>
-    <Reference Include="SpartanExtensions">
+    <Reference Include="SpartanExtensions, Version=1.0.5458.31127, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\SpartanExtensions.1.0.5458.31127\lib\net40\SpartanExtensions.dll</HintPath>
     </Reference>
     <Reference Include="System" />
