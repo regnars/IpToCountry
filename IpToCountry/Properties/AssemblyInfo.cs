@@ -6,7 +6,7 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("IpToCountry")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("A .NET library to provide an easy IP to country mapping. Everything is done in memory, no database is needed. Uses IP2Location Lite Nuget, SpartanExtensions and CsvHelper.")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("IpToCountry")]
