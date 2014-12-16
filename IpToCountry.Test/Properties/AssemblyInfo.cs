@@ -8,9 +8,9 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("IpToCountry.Test")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Autentica")]
+[assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("IpToCountry.Test")]
-[assembly: AssemblyCopyright("Copyright © Autentica 2014")]
+[assembly: AssemblyCopyright("Copyright © Regnārs Breikšs 2014")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
