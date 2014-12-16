@@ -1,0 +1,14 @@
+C:\Users\regnars.breikss\Documents\Sources\IpToCountry\IpToCountry.Test\bin\Debug\IpToCountry.Test.dll
+C:\Users\regnars.breikss\Documents\Sources\IpToCountry\IpToCountry.Test\bin\Debug\IpToCountry.Test.pdb
+C:\Users\regnars.breikss\Documents\Sources\IpToCountry\IpToCountry.Test\bin\Debug\IpToCountry.dll
+C:\Users\regnars.breikss\Documents\Sources\IpToCountry\IpToCountry.Test\bin\Debug\IP2Location.dll
+C:\Users\regnars.breikss\Documents\Sources\IpToCountry\IpToCountry.Test\bin\Debug\SpartanExtensions.dll
+C:\Users\regnars.breikss\Documents\Sources\IpToCountry\IpToCountry.Test\bin\Debug\CsvHelper.dll
+C:\Users\regnars.breikss\Documents\Sources\IpToCountry\IpToCountry.Test\bin\Debug\Ionic.Zip.dll
+C:\Users\regnars.breikss\Documents\Sources\IpToCountry\IpToCountry.Test\bin\Debug\IpToCountry.pdb
+C:\Users\regnars.breikss\Documents\Sources\IpToCountry\IpToCountry.Test\bin\Debug\CsvHelper.pdb
+C:\Users\regnars.breikss\Documents\Sources\IpToCountry\IpToCountry.Test\bin\Debug\CsvHelper.xml
+C:\Users\regnars.breikss\Documents\Sources\IpToCountry\IpToCountry.Test\bin\Debug\Ionic.Zip.xml
+C:\Users\regnars.breikss\Documents\Sources\IpToCountry\IpToCountry.Test\obj\Debug\IpToCountry.Test.csprojResolveAssemblyReference.cache
+C:\Users\regnars.breikss\Documents\Sources\IpToCountry\IpToCountry.Test\obj\Debug\IpToCountry.Test.dll
+C:\Users\regnars.breikss\Documents\Sources\IpToCountry\IpToCountry.Test\obj\Debug\IpToCountry.Test.pdb

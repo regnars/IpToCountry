@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>SpartanExtensions</id>
+    <version>1.0.5458.31127</version>
+    <title>SpartanExtensions</title>
+    <authors>Autentica Ltd</authors>
+    <owners>Autentica Ltd</owners>
+    <licenseUrl>http://opensource.org/licenses/MIT</licenseUrl>
+    <projectUrl>https://github.com/eBIT/SpartanExtensions/</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Productivity extensions for building better applications faster.</description>
+    <summary>Productivity extensions for building better applications faster.</summary>
+    <copyright>Copyright © 2014 Autentica Ltd</copyright>
+    <language>en-US</language>
+    <tags>extensions productivity helpers helper spartans spartan</tags>
+  </metadata>
+</package>
