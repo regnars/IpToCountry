@@ -8,7 +8,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("IpToCountry")]
 [assembly: AssemblyDescription("A .NET library to provide an easy IP to country mapping. Everything is done in memory, no database is needed. Uses IP2Location Lite Nuget, SpartanExtensions and CsvHelper.")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("Regnārs Breikšs")]
 [assembly: AssemblyProduct("IpToCountry")]
 [assembly: AssemblyCopyright("Copyright © Regnārs Breikšs 2014")]
 [assembly: AssemblyTrademark("")]
@@ -33,5 +33,4 @@ using System.Runtime.InteropServices;
 // You can specify all the values or you can default the Build and Revision Numbers 
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("1.0.0.0")]
-[assembly: AssemblyFileVersion("1.0.0.0")]
+[assembly: AssemblyVersion("1.0.*")]
