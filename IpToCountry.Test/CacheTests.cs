@@ -33,6 +33,13 @@ namespace IpToCountry.Test
         }
 
         [TestMethod]
+        public void IpAddressShouldBeFromLatviaAccordingToIncident4466()
+        {
+            var ipAddressLocation = IpToCountryCache.GetIpAddressLocation(IPAddress.Parse("195.244.150.52"));
+            Assert.IsTrue(ipAddressLocation.CountryCode == "LV");
+        }
+
+        [TestMethod]
         public void IpAddressShouldBeFromPrivateNetwork()
         {
             var ipAddressLocation = IpToCountryCache.GetIpAddressLocation(IPAddress.Parse("10.110.15.92"));
