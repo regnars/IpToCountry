@@ -31,8 +31,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="CsvHelper">
-      <HintPath>..\packages\CsvHelper.2.8.4\lib\net40-client\CsvHelper.dll</HintPath>
+    <Reference Include="CsvHelper, Version=2.0.0.0, Culture=neutral, PublicKeyToken=8c4959082be5c823, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\CsvHelper.2.10.0\lib\net40-client\CsvHelper.dll</HintPath>
     </Reference>
     <Reference Include="Ionic.Zip">
       <HintPath>..\packages\DotNetZip.1.9.3\lib\net20\Ionic.Zip.dll</HintPath>
@@ -40,9 +41,9 @@
     <Reference Include="IP2Location">
       <HintPath>..\packages\IP2Location.1.0.0\lib\IP2Location.dll</HintPath>
     </Reference>
-    <Reference Include="SpartanExtensions, Version=1.0.5458.31127, Culture=neutral, processorArchitecture=MSIL">
+    <Reference Include="SpartanExtensions, Version=1.0.5492.31784, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\SpartanExtensions.1.0.5458.31127\lib\net40\SpartanExtensions.dll</HintPath>
+      <HintPath>..\packages\SpartanExtensions.1.0.5492.31784\lib\net40\SpartanExtensions.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />

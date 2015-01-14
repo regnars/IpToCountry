@@ -5,6 +5,7 @@ using System.Net;
 using SpartanExtensions;
 using CsvHelper;
 using IP2Location;
+using SpartanExtensions.DataToCSV;
 
 namespace IpToCountry
 {
@@ -56,8 +57,21 @@ namespace IpToCountry
 
         private static void SaveCountryRanges(string csvDatabasePath, IEnumerable<IPRangeCountry> ranges)
         {
-            var csv = new CsvWriter(File.CreateText(csvDatabasePath));
-            csv.WriteRecords(ranges);
+            var csv = new DataToCsv<IPRangeCountry>(ranges, new List<HeaderBase<IPRangeCountry>>
+            {
+                new CustomHeader<IPRangeCountry>("StartIP", item => item.StartIP),
+                new CustomHeader<IPRangeCountry>("EndIP", item => item.EndIP),
+                new CustomHeader<IPRangeCountry>("ISO_Code_2", item => item.ISO_Code_2)
+            }, offsetValue: ",", useOffsetBeforeNewLine: false).Csv;
+            var fileStream = new FileStream(csvDatabasePath, FileMode.CreateNew);
+            csv.WriteTo(fileStream);
+            fileStream.Close();
+            csv.Close();
+
+            //Using CsvWriter causes a strange behaviour of adding a random integer ("3" or "37") at the end of the csv values, thus making the file not usable for loading of the cache.
+            //Updating the CsvHelper didn't help either.
+            //var csv = new CsvWriter(File.CreateText(csvDatabasePath));
+            //csv.WriteRecords(ranges);
         }
     }
 }
